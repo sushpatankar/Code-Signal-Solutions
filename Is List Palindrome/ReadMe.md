@@ -25,4 +25,4 @@ Guaranteed constraints:
 
 **[output] boolean**
 
-Return true if `l` is a palindrome, otherwise return false.
+Return `true` if `l` is a palindrome, otherwise return `false`.
