@@ -2,36 +2,36 @@ Given two singly linked lists sorted in non-decreasing order, your task is to me
 
 Example
 
-For l1 = [1, 2, 3] and l2 = [4, 5, 6], the output should be:
+For `l1` = `[1, 2, 3]` and `l2` = `[4, 5, 6]`, the output should be:
 
 
-mergeTwoLinkedLists(l1, l2) = [1, 2, 3, 4, 5, 6];
+`mergeTwoLinkedLists(l1, l2)` = `[1, 2, 3, 4, 5, 6]`;
 
 
-For l1 = [1, 1, 2, 4] and l2 = [0, 3, 5], the output should be:
+For `l1` = `[1, 1, 2, 4]` and `l2` = `[0, 3, 5]`, the output should be:
 
 
-mergeTwoLinkedLists(l1, l2) = [0, 1, 1, 2, 3, 4, 5].
+`mergeTwoLinkedLists(l1, l2)` = `[0, 1, 1, 2, 3, 4, 5]`.
 Input/Output
 
-[execution time limit] 4 seconds (py3)
+`[execution time limit]` 4 seconds (py3)
 
-[input] linkedlist.integer l1
-
-A singly linked list of integers.
-
-Guaranteed constraints:
-0 ≤ list size ≤ 104,
--109 ≤ element value ≤ 109.
-
-[input] linkedlist.integer l2
+`[input]` linkedlist.integer l1
 
 A singly linked list of integers.
 
 Guaranteed constraints:
-0 ≤ list size ≤ 104,
--109 ≤ element value ≤ 109.
+`0 ≤ list size ≤ 104`,
+`-109 ≤ element value ≤ 109`.
 
-[output] linkedlist.integer
+`[input]` linkedlist.integer l2
+
+A singly linked list of integers.
+
+Guaranteed constraints:
+`0 ≤ list size ≤ 104`,
+`-109 ≤ element value ≤ 109`.
+
+`[output]` linkedlist.integer
 
 A list that contains elements from both l1 and l2, sorted in non-decreasing order.
